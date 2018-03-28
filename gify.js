@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     function apicall(btnText) {
         // var animal = $("button").text();
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + btnText + "&api_key=cIzQ2aJwHt8s72O4ZDpwXVX8LpRi78L1&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + btnText + "&api_key=cIzQ2aJwHt8s72O4ZDpwXVX8LpRi78L1&limit=10";
 
         $.ajax({
             url: queryURL,
